@@ -1,0 +1,39 @@
+@import './base.css';
+@import './dimention.css';
+
+#app {
+  display: flex;
+  font-weight: normal;
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: var(--header-height);
+  overflow-y: auto;
+  z-index: 0;
+}
+
+a,
+.green {
+  display: inline-block;
+  text-decoration: none;
+  color: #c7c7c7;
+  transition: 0.4s;
+  padding: 1em 1.2em;
+}
+
+
+
+
+
+@media (hover: hover) {
+  a:hover {
+   color: var(--primary-color);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    place-items: center;
+  }
+
+
+}

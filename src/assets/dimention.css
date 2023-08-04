@@ -1,0 +1,6 @@
+:root {
+    --header-height: 76px;
+
+    --logo-img-width: 48px;
+    --logo-img-height: var(--header-height)
+}

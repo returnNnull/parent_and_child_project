@@ -20,7 +20,7 @@
     
 <script setup>
 
-import {parentStore} from "@/stores/counter";
+import {parentStore} from "@/stores/store";
 
 const store = parentStore()
 

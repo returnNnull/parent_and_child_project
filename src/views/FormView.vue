@@ -17,7 +17,7 @@ import VSplitter from "@/components/splitters/VSplitter.vue";
 import FunctionalButton from "@/components/inputs/buttons/FunctionalButton.vue";
 import {ButtonStyleFactory} from "@/components/inputs/buttons/ButtonStyleFactory";
 import {onMounted, ref} from "vue";
-import {parentStore} from "@/stores/counter";
+import {parentStore} from "@/stores/store";
 
 
 const store = parentStore()
